@@ -1,0 +1,146 @@
+:root{
+    --color-primary: #EC111A;
+    --shadows: #282D31;
+    --edges: #DFE0E0;
+    --color-titles: #282D31;
+    --color-paragraphs: #53575A;
+    
+    
+}
+
+body{
+    background-image: linear-gradient(to bottom, var(--color-rosado), var(--color-rojo));
+}
+
+.cards-grid{
+    display: grid;
+    gap: 3em;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+    margin: 0 10%;
+}
+
+.card{
+    overflow: hidden; 
+    border-radius: 1em;
+    background-color: #FFFFFF;
+    border: 2px solid var(--edges);
+}
+
+.card-img img{
+    border-radius: .5em .5em 0 0;
+    width: 100%;
+}
+
+.card-content{
+    padding: 0 1.8em 1.8em 1.8em;
+    text-align: center;
+}
+
+.card-title{
+    font-family: 'Monserrat';
+    font-weight: 700;
+    font-size: 1.2em;
+    color: var(--color-primary);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-paragraph{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--color-paragraphs);
+    line-height:1.5em;
+    text-align: justify;
+}
+
+.card-button{
+    background-color: var(--color-primary);
+    text-decoration: none;
+    border-radius: 1em;
+    padding: .5em 1em;
+    color: white;
+    font-weight: bold;
+    margin: 0 .9em;
+    display: inline-block;
+}
+
+.card-button:hover{
+    background-color: #719be2;
+    transition: background-color .3s ease-in-out;
+}
+
+.card-img:hover{
+    transition: transform .8s;
+    transform: scale(1.2); 
+}
+
+
+*{
+    background-color: #FFFFFF;
+    margin-top: auto;
+}
+
+.container{
+    margin: 6em;
+    height: 8em;
+}
+
+.fa-solid fa-book{
+    position: fixed;
+}
+.titulo-2{
+    color: #EC111A;
+}
+
+.col-md-4 {
+    
+    background: #FFFFFF;
+    padding: 30px;
+    margin-top: 80px;
+    margin: auto;
+    border-radius: 3px;
+    font-family: 'calibri';
+    color: #282D31;
+    box-shadow: 5px 10px 27px;
+}
+
+.matricula{
+    background-color: yellow;
+    text-align: center;
+    width: 100%;
+    height: 90%;
+}
+
+
+.titulo-form{
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.controls{
+    width: 100%;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    font-family: 'calibri';
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+.row input{
+    text-align: center;
+}
+
+.butons{
+    width: 100%;
+    background: #53575A;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 14px 0;
+    font-size: 14px;
+}
